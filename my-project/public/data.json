@@ -1,0 +1,11 @@
+{
+    "data": [
+      { "name": "Mon", "number": 120 },
+      { "name": "Tue", "number": 200 },
+      { "name": "Wed", "number": 150 },
+      { "name": "Thu", "number": 80 },
+      { "name": "Fri", "number": 70 },
+      { "name": "Sat", "number": 110 },
+      { "name": "Sun", "number": 130 }
+    ]
+  }
