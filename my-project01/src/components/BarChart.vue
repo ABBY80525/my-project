@@ -33,15 +33,18 @@ export default {
             datasets: [{
               label: '數值',
               data: chartData.value.data.map(item => item.number),
-              backgroundColor: 'rgba(54, 162, 235, 0.2)',
-              borderColor: 'rgba(54, 162, 235, 1)',
+              backgroundColor: 'rgba(84, 112, 196, 1)',
+              borderColor: 'rgba(84, 112, 196, 1)',
               borderWidth: 1
             }]
           },
           options: {
             scales: {
               y: {
-                beginAtZero: true
+                beginAtZero: true,
+                ticks: {
+                  stepSize: 50 // 設置 Y 軸的步長為 50
+                }
               }
             }
           }
